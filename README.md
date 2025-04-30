@@ -1,161 +1,169 @@
+Su Yee Mon Thein
+6631503086
+WatchList_4_U
+Framework -flutter
+GitHub Repository -
+APK/IPA _
 
-# 📱 แบบฟอร์มส่งงานสอบ Take-home | Take-home Assignment Template
-**ชื่อ - นามสกุล (Full Name):**  
-**รหัสนักศึกษา (Student ID):**  
-**ชื่อแอป (App Name):**  
-**Framework ที่ใช้ (Framework Used):** Flutter / React Native / อื่น ๆ  
-**ลิงก์ GitHub Repository:** [ใส่ลิงก์ที่นี่ | Insert link here]  
-**ลิงก์ไฟล์ติดตั้ง (APK/IPA):** [ใส่ลิงก์ที่นี่ | Insert link here]
+ 1. App Concept and Design
 
----
+ 1.1 User Personas
 
-## 1. การออกแบบแอป | App Concept and Design (2 คะแนน / 2 pts)
-
-### 1.1 ผู้ใช้งานเป้าหมาย | User Personas  
-**ตัวอย่าง (Example):**
-```markdown
 Persona 1:  
-- ชื่อ: นัท  
-- อายุ: 20 ปี  
-- อาชีพ: นักศึกษาปี 2  
-- ความต้องการ: ต้องการจัดตารางเรียนและเตือนสอบให้มีวินัยมากขึ้น
+- Name: Max 
+- Age: 21  
+- Occupation: University Student  
+- Needs: Wants to find some good movie for weekend.
 
 Persona 2:  
-- ชื่อ: แพรว  
-- อายุ: 22 ปี  
-- อาชีพ: นักศึกษาฝึกงาน  
-- ความต้องการ: ต้องการวางแผนงานและกำหนดเป้าหมายประจำสัปดาห์
-```
+- Name: Emma 
+- Age: 23 
+- Occupation: Office junior Worker  
+- Needs: Wants a movie recommendation app to save and make a watchlist for holiday.
+---
 
-### 1.2 เป้าหมายของแอป | App Goals  
-**ตัวอย่าง (Example):**
-```markdown
-- ช่วยนักศึกษาจัดตารางเรียนรายสัปดาห์
-- เพิ่มระบบเตือนสอบและงานที่ต้องส่ง
-- มีหน้าแดชบอร์ดรวมกิจกรรมประจำวัน
-```
+### 1.2 App Goals
 
-### 1.3 โครงร่างหน้าจอ / Mockup  
-**ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages**
+- Allow users to know which movies are trending.
+- Allow users to save movie with title and let them know for the rating point for each movie..
+- Provide a clean, colorful, and user-friendly UI.
+---
 
-### 1.4 การไหลของผู้ใช้งาน | User Flow  
-**ตัวอย่าง (Example):**
-```markdown
-เปิดแอป > เข้าหน้าแดชบอร์ด > เลือก "เพิ่มงาน" > บันทึก > ตั้งเตือน
-```
+### 1.3 App Mockup (Screens)
+
+Sign up screen- user have to register email, password and name.
+Login in screen- user can enter after register.
+Home Screen: can see popular movies, top rated movies and now playing.
+- Profile Screen: can add movie to watchlist.
+
+### 1.4 User Flow
+
+Open app > sign up> sign in> Home screen> Profile screen
 
 ---
 
-## 2. การพัฒนาแอป | App Implementation (4 คะแนน / 4 pts)
+## 2. App Implementation
 
-### 2.1 รายละเอียดการพัฒนา | Development Details  
-**เครื่องมือที่ใช้ / Tools used:**
-```markdown
+### 2.1 Development Details
+
+Tools Used:
+
 - Flutter 3.19
 - Dart 3.2
-- Package: Provider, SharedPreferences
-```
-
-### 2.2 ฟังก์ชันที่พัฒนา | Features Implemented  
-**Checklist:**
-```markdown
-- [x] เพิ่ม / แก้ไข / ลบ ตารางเรียน
-- [x] ตั้งเตือนกิจกรรม
-- [x] บันทึกงานที่ต้องทำ
-- [ ] ซิงก์กับ Google Calendar
-```
-
-### 2.3 ภาพหน้าจอแอป | App Screenshots  
-**แนบภาพหรือ URL (Attach images or image links):**
-```markdown
-- ![Dashboard](dashboard.png)
-- ![Schedule](schedule.png)
-- ![Reminder](reminder.png)
-```
+- Package: Provider
 
 ---
 
-## 3. การ Build และติดตั้งแอป | Deployment (2 คะแนน / 2 pts)
+### 2.2 Features Implemented
 
-### 3.1 ประเภท Build | Build Type
-- [x] Debug  
-- [ ] Release  
-
-### 3.2 แพลตฟอร์มที่ทดสอบ | Platform Tested  
-- [x] Android  
-- [ ] iOS  
-
-### 3.3 ไฟล์ README และวิธีติดตั้ง | README & Install Guide  
-**แนบไฟล์หรือคำอธิบายการติดตั้งแอป | Insert steps**
-```markdown
-1. ดาวน์โหลดไฟล์ .apk
-2. เปิดในอุปกรณ์ Android
-3. ติดตั้งผ่าน File Manager
-```
+- ✅ Add movie to watchlist
+- ✅ View movies with rating number
+- ✅ Polished and consistent UI/UX
 
 ---
 
-## 4. การสะท้อนผลลัพธ์ | Reflection (2 คะแนน / 2 pts)
+### 2.3 App Screenshots
 
-**ตัวอย่างหัวข้อ | Suggested points:**
-```markdown
-- พบปัญหาเวลาใช้ setState กับ async function
-- เรียนรู้การใช้ Provider ในการจัดการสถานะ
-- หากมีเวลา จะเพิ่มฟีเจอร์ login และ Firebase sync
-```
+#### Home Screen Showing movies 
+<img width="300" alt="Screenshot 2568-04-26 at 16 40 27" src="https://github.com/user-attachments/assets/a9645b6f-ad1e-421f-bf19-f6cfb3b0489d" />
 
----
+#### Profile Screen
+<img width="304" alt="Screenshot 2568-04-26 at 16 40 46" src="https://github.com/user-attachments/assets/d6ac7813-c467-4d1f-82eb-d758ab73f6a3" />
 
-## 5. การใช้ AI ช่วยพัฒนา | AI Assisted Development (Bonus / ใช้ประกอบการพิจารณา)
-
-### 5.1 ใช้ AI ช่วยคิดไอเดีย | Idea Generation
-```markdown
-Prompt ที่ใช้:  
-"Suggest mobile app ideas for students to manage classes and reminders."
-
-ผลลัพธ์:  
-ได้ไอเดียแอปจัดตารางเรียนและระบบเตือนอัตโนมัติ
-```
-
-### 5.2 ใช้ AI ช่วยออกแบบ UI | UI Layout Prompt
-```markdown
-Prompt ที่ใช้:  
-"Design a simple layout for a schedule and reminder app in Flutter."
-
-ผลลัพธ์:  
-ได้ code structure ของ Scaffold 3 หน้า
-```
-
-### 5.3 ใช้ AI ช่วยเขียนโค้ด | Code Writing Prompt
-```markdown
-Prompt ที่ใช้:  
-"Flutter code to create a ListView with editable schedule items."
-
-ผลลัพธ์:  
-นำไปปรับกับ logic ของแอป เพิ่มปุ่มแก้ไข
-```
-
-### 5.4 ใช้ AI ช่วย debug | Debug Prompt
-```markdown
-Prompt ที่ใช้:  
-"My Flutter app crashes when I try to add an item. Here's the error: [แนบ error log]"
-
-ผลลัพธ์:  
-AI แนะนำให้ตรวจสอบ null และวิธีแก้ไข
-```
-
-### 5.5 ใช้ AI ช่วย Deploy | Deployment Prompt
-```markdown
-Prompt ที่ใช้:  
-"How to build Flutter app as APK and test on Android?"
-
-ผลลัพธ์:  
-คำสั่ง flutter build apk --release พร้อมวิธีติดตั้ง
-```
+#### Add movie Screen
+<img width="302" alt="Screenshot 2568-04-26 at 16 41 07" src="https://github.com/user-attachments/assets/5ecd4f2d-89a1-459d-a241-2f7c1746e096" />
 
 ---
 
-## ✅ Checklist ก่อนส่ง | Final Checklist
-- [x] กรอกข้อมูลครบทุก Section  
-- [x] แนบ GitHub และไฟล์ติดตั้ง  
-- [x] สะท้อนผล และใช้ AI อย่างมีเหตุผล  
+## 3. Deployment and Installation
+
+### 3.1 Build Type
+
+- ✅ Release
+
+---
+
+### 3.2 Platform Tested
+
+- ✅ Android
+
+
+---
+
+### 3.3 README and Installation Guide
+
+Installation steps:
+
+1. Download the APK file from the provided link.
+2. Open the APK file via File Manager on your Android device.
+3. Allow installation from unknown sources if prompted.
+4. Install and start using the app!
+
+---
+
+## 4. Reflection
+
+- Learned how to use Provider for State Management.
+- Practiced designing consistent and polished Flutter UI.
+- Understood how to build APK files for real Android testing.
+- If more time were available, I would implement about movie details. 
+---
+
+## 5. AI Assisted Development (Bonus)
+
+### 5.1 AI for Idea Generation
+
+Prompt used:  
+"Suggest simple movie recommendation mobile app ideas for a final Flutter project."
+
+Result:  
+Chose a movie watchlist app idea allowing users to view and add movie to watchlist as in profile.
+
+---
+
+### 5.2 AI for UI Design
+
+Prompt used:  
+"Design colorful Flutter UI for movie watchlist management app with 2 screens."
+
+Result:  
+Chose white background, and clean layout ideas.
+---
+
+### 5.3 AI for Code Writing
+
+Prompt used:  
+"Flutter code for Provider ListView."
+
+Result:  
+Implemented movie addition and UI .
+
+---
+
+### 5.4 AI for Debugging
+
+Prompt used:  
+"Flutter build apk command and resolving authentication errors with GitHub."
+
+Result:  
+Learned to use Personal Access Token (PAT) to push project successfully to GitHub.
+---
+
+### 5.5 AI for Deployment
+
+Prompt used:  
+"How to build a Flutter app APK and share it with others."
+
+Result:  
+Learned how to properly build APK with `flutter build apk --release`.
+
+---
+
+# ✅ Final Submission Checklist
+
+- ✅ Completed all required sections
+- ✅ Attached GitHub and APK links
+- ✅ Provided detailed reflections
+- ✅ Explained AI assistance clearly
+
+---
