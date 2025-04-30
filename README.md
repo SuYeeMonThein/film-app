@@ -68,7 +68,7 @@ Tools Used:
 <img width="300" alt="Screenshot 2568-04-26 at 16 40 27" src="https://github.com/SuYeeMonThein/film-app/blob/9c172d20b784499891bceba54e9f7cf9bae035c2/Home%20Screenshot_1745749607.png" />
 
 #### Profile Screen
-<img width="304" alt="Screenshot 2568-04-26 at 16 40 46" src="[https://github.com/user-attachments/assets/d6ac7813-c467-4d1f-82eb-d758ab73f6a3](https://github.com/SuYeeMonThein/film-app/blob/da8ab10e32553f282a709fe36d51fae5af39b285/profile%20Screenshot_1745749633.png)" />
+<img width="304" alt="Screenshot 2568-04-26 at 16 40 46" src="https://github.com/SuYeeMonThein/film-app/blob/da8ab10e32553f282a709fe36d51fae5af39b285/profile%20Screenshot_1745749633.png" />
 
 #### Add movie Screen
 <img width="302" alt="Screenshot 2568-04-26 at 16 41 07" src="[https://github.com/user-attachments/assets/5ecd4f2d-89a1-459d-a241-2f7c1746e096](https://github.com/SuYeeMonThein/film-app/blob/77d70d32afcffa7142ef8aca56e92b7719f8862d/add%20to%20watchlist%20Screenshot_1745749628.png)" />
